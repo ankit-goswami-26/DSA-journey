@@ -6,8 +6,9 @@ class Solution {
             int sum = 0;
             for(int money : customer){
                 sum += money;
-                max = Math.max(max, sum);
-            }   
+            
+            }
+            max = Math.max(max, sum);   
         }
         
         return max;
